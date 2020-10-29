@@ -28,19 +28,19 @@ public class TriangleUtilities {
 
     public static String getSmallTriangle() {
         String smalltriangleOutput="";
-      for(int i=1 ;i <= 4;i++)
+     /* for(int i=1 ;i <= 4;i++)
       {
           for(int j=1;j<=i;j++)
           {
             smalltriangleOutput=smalltriangleOutput+"*";
           }
           smalltriangleOutput=smalltriangleOutput+"\n";
-      }
-        return smalltriangleOutput;
+      }*/
+        return getTriangle(4);
     }
 
     public static String getLargeTriangle() {
-       String largeTriangleOutput="";
+      /* String largeTriangleOutput="";
       for(int i=1 ;i <= 9;i++)
       {
           for(int j=1;j<=i;j++)
@@ -48,7 +48,7 @@ public class TriangleUtilities {
             largeTriangleOutput=largeTriangleOutput+"*";
           }
           largeTriangleOutput=largeTriangleOutput+"\n";
-      }
-        return largeTriangleOutput;
+      }*/
+        return getTriangle(9);
     }
 }
