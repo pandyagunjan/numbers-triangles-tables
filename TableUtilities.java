@@ -22,19 +22,19 @@ int indexLocation;
             for(int j=1;j<=tableSize;j++)
             {
                  
-                 tempStorage=String.valueOf(i*j);
-                 indexLocation=tempStorage.length();
+               
+                 indexLocation=String.valueOf(i*j).length();
                                  
                  switch(indexLocation)
                  {
                      case 1 :
-                      smallMultiplcation= smallMultiplcation+ "  "+ i*j +" |";
+                      smallMultiplcation+="  "+ i*j +" |";
                       break;
                       case 2 :
-                      smallMultiplcation= smallMultiplcation+ " "+ i*j +" |";
+                      smallMultiplcation+=" "+ i*j +" |";
                       break;
                       case 3 :
-                      smallMultiplcation= smallMultiplcation+  i*j +" |";
+                      smallMultiplcation+=i*j +" |";
                       break;
                       default :
                       break;
